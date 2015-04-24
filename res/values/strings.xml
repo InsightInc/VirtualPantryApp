@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Virtual Pantry</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="ScanButton">Scan Item</string>
+	<string name ="picDesc">Picture of VP</string>
+	<string name ="pantry">View Pantry</string>
+	<string name ="recipes">Search Recipes</string>
+	<string name ="PantryTitle">Items in your pantry:</string>
+	<string name ="findRecipe">Find Recipes (comma separated)</string>
+	<string name ="recipeEntry">Ingredients to include:</string>
+	<string name = "login">LOGIN</string>
+	<string name = "email">Email: </string>
+	<string name = "password">Password: </string>
+	<string name = "question">Don\'t have an account?      </string>
+	<string name = "register">Register Here</string>
+	<string name = "example">   example@ex.com</string>
+	<string name = "desc">A picture of some apples for logo</string>
+	<string name = "registerTitle">Registration Info</string>
+	<string name = "first">First Name:</string>
+	<string name = "last">Last Name:</string>
+	<string name = "confirm">Confirm Password:</string>
+	<string name = "registerButton">Register</string>
+	<string name = "genericE">JohnDoe@example.com</string>
+	<string name = "genericF">John</string>
+	<string name = "genericL">Doe</string>
+	<string name = "tabP">View Pantry</string>
+	<string name = "tabS">Search Recipes</string>
+	<string name = "tabProf">Profile</string>
+	<string name = "entryHint">corn, potato, etc...</string>
+	<string name = "addHint">Add Item ...</string>
+	<string name = "allergies">Allergies:</string>
+	<string name = "logout">Log Out</string>
+	
+</resources>

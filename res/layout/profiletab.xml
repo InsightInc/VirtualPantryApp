@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundw"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:id="@+id/header"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:textColor="#fff"
+	    android:textSize="30sp" />
+	<TextView 
+	    android:id = "@+id/nameView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="#fff"
+	    android:textSize="20sp"
+	    />
+	<TextView 
+	    android:id = "@+id/emailV"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="#fff"
+	    android:textSize="20sp"
+	    />
+	<TextView
+	    android:id="@+id/aTV"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="@string/allergies"
+	    android:textColor="#fff"
+	    android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/aList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.39" >
+    </ListView>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout" />
+
+</LinearLayout>

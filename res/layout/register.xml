@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundw"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.virtualpantry.Main_Page" >
+
+    <TextView
+        android:id="@+id/registerTitlePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textSize="30sp"
+        android:textColor = "#fff"
+        android:text="@string/registerTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/firstView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerTitlePage"
+        android:layout_marginTop="20dp"
+        android:text="@string/first"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lastView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstView"
+        android:layout_marginTop="16dp"
+        android:text="@string/last"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/emailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastView"
+        android:layout_marginTop="17dp"
+        android:text="@string/email"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/confirmView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passView"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirm"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/RegistrationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirmView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:textSize = "25sp"
+        android:text="@string/registerButton" />
+
+    <TextView
+        android:id="@+id/passView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/firstEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstView"
+        android:textColor = "#fff"
+        android:textColorHint="#FFFFFF"
+        android:hint="@string/genericF"
+        android:layout_alignBottom="@+id/firstView"
+        android:layout_toEndOf = "@+id/firstView"
+        android:layout_toRightOf="@+id/firstView"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/lastEdit"
+        android:textColor = "#fff"
+        android:textColorHint="#FFFFFF"
+        android:hint="@string/genericL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lastView"
+        android:layout_alignBottom="@+id/lastView"
+        android:layout_toEndOf = "@+id/lastView"
+        android:layout_toRightOf="@+id/lastView"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/passEdit"
+        android:textColor = "#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/passView"
+        android:layout_alignBottom="@+id/passView"
+        android:layout_toEndOf="@+id/passView"
+        android:layout_toRightOf="@+id/passView"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmEdit"
+        android:textColor = "#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/confirmView"
+        android:layout_alignBottom="@+id/confirmView"
+        android:layout_toEndOf="@+id/confirmView"
+        android:layout_toRightOf="@+id/confirmView"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/emailEdit"
+        android:textColor = "#fff"
+        android:textColorHint="#FFFFFF"
+        android:hint="@string/genericE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/emailView"
+        android:layout_alignBottom="@+id/emailView"
+        android:layout_toEndOf="@+id/emailView"
+        android:layout_toRightOf="@+id/emailView"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    
+</RelativeLayout>
